@@ -3,30 +3,34 @@
 
 ### 一. 安装
 
-#### 第一步：安装taobao镜像工具(国内最好先安装这个，不然下载这个项目实在是太艰难了)[淘宝NPM镜像地址(Click Me)](https://npm.taobao.org/)
+#### 第一步：安装taobao镜像工具
+
+(国内最好先安装这个，不然下载这个项目实在是太艰难了)[淘宝NPM镜像地址(Click Me)](https://npm.taobao.org/)
 
 `npm install -g cnpm --registry=https://registry.npm.taobao.org`
 
 #### 第二步：创建项目文件夹，配置项目相关信息
 
-进入项目文件夹全局安装 vue-cli
+``` bash
+npm install -g vue-cli       #进入项目文件夹全局安装 vue-cli
 
-`npm install -g vue-cli`
+vue init webpack my-vue      #创建一个基于 "webpack" 模板的新项目,这里文件名起的是‘my-vue’
+```
 
-创建一个基于 "webpack" 模板的新项目,这里文件名起的是‘my-vue’
+根据提示写入package.json相关信息  [package.json文档(Click Me)](http://www.mujiang.info/translation/npmjs/files/package.json.html)
 
-`vue init webpack my-vue`
-
-写入package.json相关信息  [package.json文档(Click Me)](http://www.mujiang.info/translation/npmjs/files/package.json.html)
 选择性安装 karam+mocha(单元测试)等一些工具
 
 #### 第三步：安装依赖资源，启动项目
 
 ``` bash
 cd my-vue       #进入项目文件夹
+
 npm install     #安装依赖的一些资源，就是package.json里面对应的东东
+
+$ npm run dev   #启动项目
 ```
-`$ npm run dev` 启动项目
+
 
 可以尽情的开发了  [VUE文档地址(Click Me)](http://cn.vuejs.org/guide/installation.html)
 
