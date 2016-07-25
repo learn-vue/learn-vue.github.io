@@ -10,8 +10,11 @@
 #### 第二步：创建项目文件夹，配置项目相关信息
 
 进入项目文件夹全局安装 vue-cli
+
 `npm install -g vue-cli`
+
 创建一个基于 "webpack" 模板的新项目,这里文件名起的是‘my-vue’
+
 `vue init webpack my-vue`
 
 写入package.json相关信息  [package.json文档(Click Me)](http://www.mujiang.info/translation/npmjs/files/package.json.html)
@@ -19,7 +22,7 @@
 
 #### 第三步：安装依赖资源，启动项目
 
-```
+``` bash
 cd my-vue       #进入项目文件夹
 npm install     #安装依赖的一些资源，就是package.json里面对应的东东
 ```
