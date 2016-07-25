@@ -48,23 +48,3 @@ npm test
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-
-
-
-第一步  npm install -g cnpm --registry=https://registry.npm.taobao.org  安装taobao镜像工具
-
-进入项目文件夹
-# 全局安装 vue-cli
-$ npm install -g vue-cli
-# 创建一个基于 "webpack" 模板的新项目
-$ vue init webpack my-vue
-
-写入package.json相关信息  文档
-http://www.mujiang.info/translation/npmjs/files/package.json.html
-选择性安装 karam+mocha(单元测试)等一些工具
-
-# 安装依赖，走你
-$ cd my-vue
-$ npm install
-安装依赖的一些资源，就是package.json里面对应的东东
-$ npm run dev
